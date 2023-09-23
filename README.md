@@ -2,16 +2,16 @@
 
 ## users テーブル
 
-| Column             | Type   | Options      |
-| ------------------ | ------ | ------------ |
-| nicknam            | string | null: false  |
-| email              | string | unique: true |
-| encryped_password  | string | null: false  |
-| first_name         | string | null: false  |
-| last_name          | string | null: false  |
-| first_name_kana    | string | null: false  |
-| last_name_kana     | string | null: false  |
-| birthday           | date   | null: false  |
+| Column             | Type   | Options                   |
+| ------------------ | ------ | ------------------------- |
+| nicknam            | string | null: false               |
+| email              | string | unique: true, null: false |
+| encryped_password  | string | null: false               |
+| first_name         | string | null: false               |
+| last_name          | string | null: false               |
+| first_name_kana    | string | null: false               |
+| last_name_kana     | string | null: false               |
+| birthday           | date   | null: false               |
 
 ### Association
 
