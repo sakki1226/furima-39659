@@ -1,3 +1,2 @@
-class Item < ApplicationRecord
-  validates [:item_name, :]
+class Item < ApplicationRecord  
 end
