@@ -1,0 +1,1 @@
+class Prefecture < ActiveHash::Base

@@ -1,0 +1,1 @@
+class Delivery_day < ActiveHash::Base

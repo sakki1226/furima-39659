@@ -1,0 +1,1 @@
+class Category < ActiveHash::Base

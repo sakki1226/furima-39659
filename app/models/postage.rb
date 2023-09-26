@@ -1,0 +1,1 @@
+class Postage < ActiveHash::Base
