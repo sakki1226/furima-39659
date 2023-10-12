@@ -10,5 +10,4 @@ window.addEventListener('turbo:load', () => {
     const profit = Math.floor(inputValue - fee); 
     saleProfit.innerHTML = profit;
   });
-  
 });
